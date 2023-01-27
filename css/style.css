@@ -8,17 +8,16 @@ html {
   background-attachment: fixed;
 }
 
+body {
+  width: 1072px;
+  margin: 0 auto;
+}
+
 .container {
   display: flex;
   align-items: center;
   text-align: center;
   margin-top: 50px;
-}
-
-body {
-  width: 1072px;
-  height: 100vh;
-  margin: 0 auto;
 }
 
 a, p {
@@ -31,6 +30,10 @@ a, p {
   height: 44px;
 }
 
+header > .container {
+  justify-content: space-between;
+}
+
 .logo {
   display: flex;
   text-transform: uppercase;
@@ -38,10 +41,6 @@ a, p {
 
 .inner-logo {
   padding-left: 15px;
-}
-
-header > .container {
-  justify-content: space-between;
 }
 
 .main-text {
@@ -64,6 +63,7 @@ main > .container {
   flex-wrap: wrap;
   gap: 0 68px;
 }
+
 
 figure img {
   width: 306px;
