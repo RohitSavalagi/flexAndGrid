@@ -68,6 +68,7 @@ p {
   grid-template-rows: 1fr;
   grid-gap: 5px;
   text-align: right;
+  font-size: 18px;
 }
 
 .header__logo {
