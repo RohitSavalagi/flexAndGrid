@@ -20,7 +20,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  text-align: center;
   margin-top: 50px;
   justify-content: space-between;
 }
@@ -51,7 +50,6 @@ a, p {
 }
 
 .header__logo-link_text-wrapper {
-  text-align: center;
   padding-left: 15px;
 }
 
@@ -143,13 +141,11 @@ a, p {
   font-size: 18px;
   padding: 20px 0 36px 0;
   color: white;
-  text-align: center;
   font-family: sans-serif;
 }
 
 
 .footer__copy-right {
-  text-align: center;
   padding-top: 25px;
   padding-bottom: 20px;
   font-size: 12px;
